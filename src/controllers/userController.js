@@ -23,11 +23,14 @@ const registerUser = async (req, res) => {
   }
 };
 
-module.exports = {
-  registerUser,
-};
-
 // User Login
 const loginUser = async (req, res) => {
   // Logic for user login
 };
+
+module.exports = {
+  registerUser,
+  loginUser,
+};
+
+
